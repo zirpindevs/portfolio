@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Portafolio profesional de desarrollo de software de zirpindevs. Proyectos de Python, APIs, backend, frontend, Java y Spring Boot.">
+<meta name="theme-color" content="#101827">
+<title>Portafolio | Desarrollo de software</title>
+<style>
+:root{--bg:#0b1220;--panel:#111c2e;--panel2:#152238;--text:#edf3fc;--muted:#a7b5c9;--line:#26364e;--accent:#7dd3fc;--accent2:#a5b4fc;--max:1100px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#1c3555 0,transparent 38%),var(--bg);color:var(--text);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:inherit}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;border-bottom:1px solid var(--line)}.brand{font-weight:800;letter-spacing:.04em}.brand span{color:var(--accent)}nav .links{display:flex;gap:24px;color:var(--muted);font-size:.93rem}nav a{text-decoration:none}nav a:hover{color:var(--accent)}
+.hero{padding:92px 0 76px;max-width:850px}.eyebrow{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:.16em;font-size:.76rem}.hero h1{font-size:clamp(2.5rem,7vw,5.2rem);line-height:1.04;letter-spacing:-.055em;margin:18px 0 22px}.hero h1 em{font-style:normal;color:var(--accent)}.lead{font-size:1.18rem;color:var(--muted);max-width:720px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;padding:11px 17px;border-radius:10px;text-decoration:none;font-weight:700;border:1px solid var(--line);background:var(--panel);transition:.2s}.btn.primary{background:var(--accent);color:#082032;border-color:var(--accent)}.btn:hover{transform:translateY(-2px)}
+section{padding:48px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:24px}.section-head h2{font-size:2rem;letter-spacing:-.035em;margin:0}.section-head p{margin:0;color:var(--muted);max-width:490px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{background:linear-gradient(145deg,var(--panel),#0e192a);border:1px solid var(--line);border-radius:17px;padding:23px;min-height:220px;display:flex;flex-direction:column}.card-top{display:flex;justify-content:space-between;gap:14px;align-items:start}.num{font-size:.78rem;color:var(--accent);font-weight:800;letter-spacing:.12em}.status{font-size:.72rem;color:#c5d2e4;border:1px solid #40516b;border-radius:100px;padding:4px 9px;white-space:nowrap}.card h3{font-size:1.28rem;margin:15px 0 7px}.card p{color:var(--muted);margin:0 0 18px}.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:auto}.tag{font-size:.75rem;color:#c8d8ea;background:#1b2b42;border:1px solid #2b405d;padding:4px 9px;border-radius:100px}
+.about{display:grid;grid-template-columns:1.1fr .9fr;gap:28px}.aboutbox{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:25px}.aboutbox h3{margin-top:0}.aboutbox p,.aboutbox li{color:var(--muted)}.aboutbox ul{padding-left:20px}
+.callout{border:1px solid #36516d;background:linear-gradient(120deg,#14283d,#17243b);border-radius:18px;padding:30px;display:flex;justify-content:space-between;align-items:center;gap:20px}.callout h2{margin:0 0 7px}.callout p{margin:0;color:var(--muted)}
+footer{border-top:1px solid var(--line);margin-top:60px;padding:25px 0;color:var(--muted);font-size:.9rem;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:720px){nav .links{gap:12px;font-size:.82rem}.hero{padding:65px 0 45px}.grid,.about{grid-template-columns:1fr}.section-head{display:block}.section-head p{margin-top:8px}.callout{display:block}.callout .btn{margin-top:18px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+  <a class="brand" href="#">PORTAFOLIO<span>.</span></a>
+  <div class="links"><a href="#proyectos">Proyectos</a><a href="#sobre-mi">Sobre mí</a><a href="#contacto">Contacto</a></div>
+</nav>
+
+<header class="hero">
+  <div class="eyebrow">Desarrollo de software · Portafolio</div>
+  <h1>Construyo soluciones<br><em>con código.</em></h1>
+  <p class="lead">Este es un recorrido por proyectos personales y de aprendizaje en desarrollo de software: aplicaciones, APIs, backend, frontend, automatización e integración de tecnologías.</p>
+  <div class="actions">
+    <a class="btn primary" href="#proyectos">Explorar proyectos</a>
+    <a class="btn" href="https://github.com/zirpindevs" target="_blank" rel="noopener">Perfil de GitHub ↗</a>
+  </div>
+</header>
+
+<section id="proyectos">
+  <div class="section-head">
+    <h2>Proyectos seleccionados</h2>
+    <p>Ocho repositorios organizados para mostrar distintas áreas de trabajo. El código fuente se mantiene privado; puedo compartir más información sobre cada proyecto bajo solicitud.</p>
+  </div>
+  <div class="grid">
+    <article class="card">
+      <div class="card-top"><span class="num">01 / PYTHON · IOT</span><span class="status">Código privado</span></div>
+      <h3>Acuarium Python</h3>
+      <p>Proyecto de Python orientado a IoT y automatización, con componentes para interactuar con dispositivos y recoger información del entorno.</p>
+      <div class="tags"><span class="tag">Python</span><span class="tag">IoT</span><span class="tag">Automatización</span></div>
+    </article>
+    <article class="card">
+      <div class="card-top"><span class="num">02 / API</span><span class="status">Código privado</span></div>
+      <h3>Acuarium Python API</h3>
+      <p>Proyecto de desarrollo de una API en Python, pensado para exponer funcionalidades y facilitar la comunicación entre componentes.</p>
+      <div class="tags"><span class="tag">Python</span><span class="tag">API</span><span class="tag">Backend</span></div>
+    </article>
+    <article class="card">
+      <div class="card-top"><span class="num">03 / BACKEND</span><span class="status">Código privado</span></div>
+      <h3>Acuarium Backend</h3>
+      <p>Parte backend del ecosistema Acuarium. Proyecto centrado en la lógica de servidor y la organización de servicios de aplicación.</p>
+      <div class="tags"><span class="tag">Backend</span><span class="tag">Servicios</span></div>
+    </article>
+    <article class="card">
+      <div class="card-top"><span class="num">04 / API</span><span class="status">Código privado</span></div>
+      <h3>Estepona Taxi API</h3>
+      <p>Proyecto de API relacionado con un servicio de taxi, como ejercicio de diseño de servicios y funcionalidades para una aplicación.</p>
+      <div class="tags"><span class="tag">API</span><span class="tag">Backend</span></div>
+    </article>
+    <article class="card">
+      <div class="card-top"><span class="num">05 / APLICACIÓN</span><span class="status">Código privado</span></div>
+      <h3>FP Match</h3>
+      <p>Aplicación orientada al matching, con una interfaz web desarrollada con tecnologías del ecosistema Angular.</p>
+      <div class="tags"><span class="tag">Angular</span><span class="tag">Frontend</span><span class="tag">Web</span></div>
+    </article>
+    <article class="card">
+      <div class="card-top"><span class="num">06 / FRONTEND</span><span class="status">Código privado</span></div>
+      <h3>Acuarium Frontend</h3>
+      <p>Interfaz de usuario del ecosistema Acuarium, enfocada en la capa visual y la interacción con los servicios de la aplicación.</p>
+      <div class="tags"><span class="tag">Frontend</span><span class="tag">Desarrollo web</span></div>
+    </article>
+    <article class="card">
+      <div class="card-top"><span class="num">07 / JAVA</span><span class="status">Código privado</span></div>
+      <h3>Spring Boot Demo</h3>
+      <p>Proyecto demostrativo con Java y Spring Boot, útil para mostrar estructura de una aplicación backend y trabajo con el ecosistema Maven.</p>
+      <div class="tags"><span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">Maven</span></div>
+    </article>
+    <article class="card">
+      <div class="card-top"><span class="num">08 / API · TESTING</span><span class="status">Código privado</span></div>
+      <h3>Test Andalucía API</h3>
+      <p>Proyecto de API acompañado de material de pruebas y colección de peticiones para comprobar sus endpoints.</p>
+      <div class="tags"><span class="tag">API</span><span class="tag">Testing</span><span class="tag">Postman</span></div>
+    </article>
+  </div>
+</section>
+
+<section id="sobre-mi">
+  <div class="section-head"><h2>Sobre este portafolio</h2></div>
+  <div class="about">
+    <div class="aboutbox">
+      <h3>Aprendizaje aplicado y proyectos reales</h3>
+      <p>Estos proyectos reflejan trabajo práctico en distintas capas del desarrollo: desde scripts y automatización hasta APIs, servicios backend e interfaces web.</p>
+      <p>El objetivo de este espacio es presentar de forma clara el tipo de problemas abordados, las tecnologías utilizadas y la evolución del trabajo.</p>
+    </div>
+    <div class="aboutbox">
+      <h3>Áreas de trabajo</h3>
+      <ul>
+        <li>Desarrollo con Python</li>
+        <li>APIs y servicios backend</li>
+        <li>Desarrollo web frontend</li>
+        <li>Java y Spring Boot</li>
+        <li>IoT y automatización</li>
+        <li>Pruebas y documentación de APIs</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="callout">
+    <div><h2>¿Hablamos?</h2><p>Para conocer más detalles de los proyectos o conversar sobre oportunidades profesionales.</p></div>
+    <a class="btn primary" href="https://github.com/zirpindevs" target="_blank" rel="noopener">Contactar a través de GitHub ↗</a>
+  </div>
+</section>
+
+<footer>
+  <span>Portafolio de desarrollo de software</span>
+  <span>GitHub: @zirpindevs</span>
+</footer>
+</div>
+</body>
+</html>
